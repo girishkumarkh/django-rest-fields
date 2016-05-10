@@ -3,7 +3,7 @@ List of all Serializable fields in Django Rest Framework
 
 #### ArrayField
 ```
-class ArrayField(serializers.WritableField):
+class ArrayField(serializers.Field):
 
     def from_native(self, data):
         if isinstance(data, list):
